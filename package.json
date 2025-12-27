@@ -1,0 +1,12 @@
+{
+  "name": "dev-portfolio-generator",
+  "version": "0.1.0",
+  "description": "CLI tool that creates static portfolio sites from a JSON config.",
+  "bin": {
+    "dev-portfolio": "./bin/dev-portfolio.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node bin/dev-portfolio.js build --config portfolio.json --out dist"
+  }
+}
