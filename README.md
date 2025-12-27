@@ -80,8 +80,8 @@ Open `dist/index.html` in your browser to see your generated portfolio.
 ---
 
 ## Project Structure
----
 
+```text
 .
 ├── bin/
 │   └── dev-portfolio.js      # CLI entry (init + build commands)
