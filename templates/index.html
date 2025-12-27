@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{{name}} – Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+    <header>
+        <h1>{{name}}</h1>
+        <h2>{{title}}</h2>
+        <p>{{bio}}</p>
+        <p><strong>Location:</strong> {{location}}</p>
+        <p>
+            <a href="{{github}}">GitHub</a> ·
+            <a href="{{linkedin}}">LinkedIn</a> ·
+            <a href="mailto:{{email}}">Email</a>
+        </p>
+    </header>
+
+    <section>
+        <h3>Skills</h3>
+        <ul>
+            {{skills}}
+        </ul>
+    </section>
+
+    <section>
+        <h3>Projects</h3>
+        <div class="projects">
+            {{projects}}
+        </div>
+    </section>
+</main>
+</body>
+</html>
