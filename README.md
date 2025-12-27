@@ -80,6 +80,7 @@ Open `dist/index.html` in your browser to see your generated portfolio.
 ---
 
 ## Project Structure
+---
 
 .
 ├── bin/
