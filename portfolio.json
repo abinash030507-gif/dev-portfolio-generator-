@@ -1,0 +1,32 @@
+#this is a demo json file relpace yours 
+{
+  "name": "Abinash Das",
+  "title": "Student Developer",
+  "location": "Odisha, India",
+  "bio": "Student developer focused on web development and AI.",
+  "links": {
+    "github": "https://github.com/your-username",
+    "linkedin": "https://linkedin.com/in/your-handle",
+    "email": "you@example.com"
+  },
+  "skills": [
+    "Web Development",
+    "Python",
+    "Linux",
+    "Databases"
+  ],
+  "projects": [
+    {
+      "name": "Smart Study Planner",
+      "description": "Web app for scheduling study tasks by priority and due date.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/your-username/smart-study-planner"
+    },
+    {
+      "name": "Dev Portfolio Generator",
+      "description": "CLI tool that creates static portfolio sites from JSON.",
+      "tech": ["Node.js"],
+      "link": "https://github.com/your-username/dev-portfolio-generator"
+    }
+  ]
+}
