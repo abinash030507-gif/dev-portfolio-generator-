@@ -83,14 +83,17 @@ Open `dist/index.html` in your browser to see your generated portfolio.
 
 .
 ├── bin/
-│ └── dev-portfolio.js # CLI entry (init + build commands)
+│   └── dev-portfolio.js      # CLI entry (init + build commands)
 ├── src/
-│ └── build.js # Reads portfolio.json and generates HTML/CSS
+│   └── build.js              # Reads portfolio.json and generates HTML/CSS
 ├── templates/
-│ ├── index.html # HTML template with placeholders
-│ └── style.css # Default styling for the portfolio
-├── portfolio.json # YOUR DATA (replace or regenerate)
-└── package.json
+│   ├── index.html            # Portfolio HTML template with {{placeholders}}
+│   └── style.css             # Default styling for generated site
+├── portfolio.json            # Your data (created by `npm run init` or edited manually)
+├── dist/
+│   ├── index.html            # Generated portfolio page
+│   └── style.css             # Copied/processed CSS for the generated page
+└── package.json              # Project config, scripts, and CLI metadata
 
 ---
 
