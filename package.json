@@ -7,6 +7,7 @@
   },
   "type": "module",
   "scripts": {
+    "init": "node bin/dev-portfolio.js init",
     "build": "node bin/dev-portfolio.js build --config portfolio.json --out dist"
   }
 }
