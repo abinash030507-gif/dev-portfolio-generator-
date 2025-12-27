@@ -95,7 +95,8 @@ Open `dist/index.html` in your browser to see your generated portfolio.
 │   ├── index.html            # Generated portfolio page
 │   └── style.css             # Copied/processed CSS for the generated page
 └── package.json              # Project config, scripts, and CLI metadata
-'''
+```
+
 ---
 
 ## Customization
