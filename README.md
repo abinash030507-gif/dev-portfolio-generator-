@@ -111,6 +111,3 @@ to regenerate `dist/index.html` and `dist/style.css`.
 
 ---
 
-## License
-
-You can choose a license such as MIT for open use and modification.
